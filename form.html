@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Űrlap">
+        <meta name="author" content="Kamuti Levente (PQWR5B)">
+        <script src="js/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel = "icon" href = "img/icon.png" type = "image/x-icon">
+        <title>Űrlap - Martin Scorcese alkotásai</title>
+    </head>
+
+    <body class="d-flex flex-column min-vh-100">
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <a href="index.html" class="logo fadein">
+                            <img src="img/logo.png" alt="Martin Scorsese"/>
+                        </a>
+                        <ul class="nav fadein">
+                            <li><a href="index.html">Kezdőlap</a></li>
+                            <li><a href="departed.html">A tégla (The Departed)</a></li>
+                            <li><a href="goodfellas.html">Nagymenők (Goodfellas)</a></li>
+                            <li><a href="form.html" class="active">Űrlap</a></li>
+                        </ul>
+                        <a class='menu-btn fadein'>
+                            <span>Menü</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section colored form-fix" id="urlap">
+        <div class="container fadein">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center-heading">
+                        <h2 class="section-title">Űrlap</h2>
+                    </div>
+                </div>
+                <div class="offset-lg-3 col-lg-6">
+                    <div class="center-text">
+                        <p>Ha időd engedi, kérlek írj egy rövid visszajelzést a honlapomról!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h5 class="margin-bottom-30">Legyen bármilyen gondolatod, építő jellegű kritikád, várom a véleményed!</h5>
+                    <div class="form-text">
+                        <p>Az itt megadott üzenet csak akkor kerül nyilvánosságra, ha beleegyezel.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="row form-form">
+                        <form action="mailto:levente.kamuti@gmail.com" method="post" id="form-form">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                              <fieldset>
+                                <input name="name" type="text" class="form-control" id="name" placeholder="Név" required="" maxlength="30">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                              <fieldset>
+                                <input name="email" type="email" class="form-control" id="email" placeholder="Email cím" required="" maxlength="30">
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                              <fieldset>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Üzenet" required="" maxlength="350"></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                              <fieldset>
+                                <button type="submit" id="form-submit" class="form-submit">Küldés</button>
+                                <button name="ResetForm" class="btn waves-effect waves-light form-submit reset" id="ResetForm" type="button">Alaphelyzet</button>
+                              </fieldset>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-check">
+                                    <ul>
+                                        <li>
+                                    <input class="check" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                    <label class="form-check-label">
+                                        Férfi
+                                    </label>
+                                        </li>
+                                        <li>
+                                    <input class="check" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                    <label class="form-check-label">
+                                        Nő
+                                    </label>
+                                </li>
+                                <li>
+                                    <input class="check" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label">
+                                      Nyilvános
+                                    </label>
+                                </li>
+                                    </ul>
+                                  </div>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <figure>
+                        <img src="img/h2.jpg" class="img-fluid form-img mx-auto" alt="Scorsese és DeNiro a Taxisofőr forgatásán">
+                        <figcaption class="form-fig">Scorsese és DeNiro a Taxisofőr forgatásán</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="fadein mt-auto">
+        <div class="container">
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="en">Készítette: Kamuti Levente (PQWR5B)</p>
+                </div>
+            </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
